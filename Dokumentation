@@ -6,4 +6,6 @@ Weil wir uns unsicher waren, ob ein Film mehrere Regisseure haben kann,
 sahen besuchten wir die Website der IMDb, um die Daten, der dort sichtbaren Filme, zu betrachten.
 Tatsächlich existieren Filme, die mehrere Regisseure haben.
 Also mussten wir unser Datenbankschema und damit die CREATE-Befehle anpassen.
-Nach weiteren Anpassungen ...
+Es folgten weitere Anpassungen, wie die Änderung von Vor- und Nachname eines Schauspielers in Name,
+oder die Auslagerung von Genrezuordnungen in eine eigene Tabelle,
+da zwischen Genres und Filmen eine m-n-Beziehung vorliegt.
