@@ -1,0 +1,9 @@
+Dokumentation
+
+Zuerst haben wir CREATE-Befehle anhand der Aufgabenstellung erstellt,
+dann das Datenbankschema davon abgeleitet.
+Weil wir uns unsicher waren, ob ein Film mehrere Regisseure haben kann,
+sahen besuchten wir die Website der IMDb, um die Daten, der dort sichtbaren Filme, zu betrachten.
+Tatsächlich existieren Filme, die mehrere Regisseure haben.
+Also mussten wir unser Datenbankschema und damit die CREATE-Befehle anpassen.
+Nach weiteren Anpassungen ...
