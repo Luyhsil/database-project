@@ -13,8 +13,7 @@ public class JDBC {
 							"(FilmID INT NOT NULL PRIMARY KEY, " +
 							" Titel VARCHAR(100) NOT NULL, " +
 							" Bewertung REAL NOT NULL, " +
-							" Erscheinungsjahr SMALLINT NOT NULL, "+
-							" GenreID SMALLINT NOT NULL REFERENCES Genres(GenreID))";
+							" Erscheinungsjahr SMALLINT NOT NULL)";
 			Filme.executeUpdate(tFilme);
 			
 			Statement Schauspieler = conn.createStatement();
